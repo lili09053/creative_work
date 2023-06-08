@@ -2,6 +2,7 @@
 
 ## Отчёты
 - Бинарное дерево: [Дерево](https://github.com/lili09053/creative_work/blob/main/BinaryTree/BinaryTreeReview.docx)
+- Граф: [граф](https://github.com/lili09053/creative_work/blob/main/graph/README.md)
 
 ## Видео
 
