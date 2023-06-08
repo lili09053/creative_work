@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_mtx_adj</class>
+ <widget class="QWidget" name="Form_mtx_adj">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>edit matrix</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+background-color: rgb(233, 226, 255);
+font-size: 14px;
+font-family: &quot;System&quot;;
+color: rgb(111, 31, 158);
+}
+
+QLineEdit
+{
+background-color: rgb(255, 255, 255);
+border-radius: 8px;
+}
+
+QPushButton
+{
+background-color: rgb(233, 226, 255);
+border: 2px solid rgb(111, 31, 158);
+border-radius: 8px;
+color: rgb(111, 31, 158);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(176, 170, 255)
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(152, 147, 220);
+}
+
+QTableWidget
+{
+	color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 8px;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Edit matrix</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_aj_mtrx">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>750</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: rgb(255, 255, 255);
+border-radius: 8px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pB_edit_mtr">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>520</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>EDIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pB_open_tab">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>520</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>OPEN</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

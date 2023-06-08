@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_top_del</class>
+ <widget class="QWidget" name="Form_top_del">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>274</width>
+    <height>333</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>274</width>
+    <height>333</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>delete vertex</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+background-color: rgb(233, 226, 255);
+font-size: 14px;
+font-family: &quot;System&quot;;
+color: rgb(111, 31, 158);
+}
+
+QLineEdit
+{
+background-color: rgb(255, 255, 255);
+border-radius: 8px;
+}
+
+QPushButton
+{
+background-color: rgb(233, 226, 255);
+border: 2px solid rgb(111, 31, 158);
+border-radius: 8px;
+color: rgb(111, 31, 158);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(176, 170, 255)
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(152, 147, 220);
+}
+
+</string>
+  </property>
+  <widget class="QLabel" name="label_title_del_top">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete vertex</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_top_num">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vertex number:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_del_top">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pB_del_top">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Del</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

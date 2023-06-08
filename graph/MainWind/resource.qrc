@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/back1.jpg</file>
+        <file>img/back7.jpg</file>
+        <file>img/back71.jpg</file>
+        <file>img/back72.jpg</file>
+        <file>img/back73.jpg</file>
+        <file>img/circle.png</file>
+        <file>img/matrix.png</file>
+        <file>img/route.png</file>
+        <file>img/back2.jpg</file>
+    </qresource>
+</RCC>
